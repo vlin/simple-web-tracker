@@ -1,0 +1,24 @@
+{
+  "name": "simple-web-tracker",
+  "version": "0.0.1",
+  "description": "a simple web tracker",
+  "scripts": {
+    "dev": "vite",
+    "build:test": "tsc && vite build --mode test",
+    "build:prod": "tsc && vite build --mode production",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.7",
+    "@types/qs": "^6.9.7",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.2",
+    "vite-plugin-banner": "^0.1.3"
+  },
+  "dependencies": {
+    "js-cookie": "^3.0.1",
+    "qs": "^6.10.1"
+  },
+  "author": "Victor Lin",
+  "license": "ISC"
+}
